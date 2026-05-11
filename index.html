@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GameZone Live – Portal de gaming con noticias y novedades en tiempo real impulsado por IA. Consolas, PC, móviles, hardware y ofertas.">
+    <title>GameZone LIVE // Portal Gaming con IA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23020509'/%3E%3Ctext x='3' y='24' font-size='22' fill='%2300f5ff'%3E⬡%3C/text%3E%3C/svg%3E">
+    <script src="js/config.js"></script>
+</head>
+<body>
+
+<!-- ════════ NAVBAR ════════ -->
+<nav class="navbar">
+    <a href="#" class="nav-logo"><span class="logo-br">[</span>GZ<span class="logo-br">]</span> GAMEZONE</a>
+    <ul class="nav-links">
+        <li><a href="#live">Noticias Live</a></li>
+        <li><a href="#juegos">Juegos</a></li>
+        <li><a href="#lanzamientos">Lanzamientos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+    </ul>
+    <div class="nav-live"><div class="live-dot"></div>IA LIVE</div>
+</nav>
+
+<!-- ════════ TICKER ════════ -->
+<div class="ticker" style="margin-top:68px;">
+    <div class="ticker-track">
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>LIVE:</strong> Búsquedas impulsadas por Claude + Web Search en tiempo real</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>NUEVO:</strong> GTA VI confirmado para Q4 2025 — tráiler oficial disponible</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>HARDWARE:</strong> RTX 5090 vs RX 9070 XT — comparativa de rendimiento publicada</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>CONSOLAS:</strong> Nintendo Switch 2 disponible desde Junio 2025</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>MÓVIL:</strong> Samsung Galaxy S25 Ultra vs iPhone 16 Pro — benchmark gaming</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>OFERTA:</strong> Steam Weekend Deal — hasta 80% de descuento en títulos AAA</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>IA:</strong> GameZone usa Anthropic Claude Sonnet 4 con búsqueda web en vivo</span></div>
+        <!-- duplicate for loop -->
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>LIVE:</strong> Búsquedas impulsadas por Claude + Web Search en tiempo real</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>NUEVO:</strong> GTA VI confirmado para Q4 2025 — tráiler oficial disponible</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>HARDWARE:</strong> RTX 5090 vs RX 9070 XT — comparativa de rendimiento publicada</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>CONSOLAS:</strong> Nintendo Switch 2 disponible desde Junio 2025</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>MÓVIL:</strong> Samsung Galaxy S25 Ultra vs iPhone 16 Pro — benchmark gaming</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>OFERTA:</strong> Steam Weekend Deal — hasta 80% de descuento en títulos AAA</span></div>
+        <div class="ticker-item"><div class="t-dot"></div><span class="t-txt"><strong>IA:</strong> GameZone usa Anthropic Claude Sonnet 4 con búsqueda web en vivo</span></div>
+    </div>
+</div>
+
+<!-- ════════ HERO ════════ -->
+<section class="hero" id="inicio">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="hero-content">
+        <div class="hero-eye"><span id="hero-date">PORTAL GAMING LIVE</span></div>
+        <h1 class="hero-title">
+            <span class="title-plain">NOTICIAS</span>
+            <span class="title-glow">EN TIEMPO REAL</span>
+            <span class="title-plain">IMPULSADAS POR IA</span>
+        </h1>
+        <p class="hero-sub">
+            GameZone conecta con la inteligencia artificial de Anthropic Claude y búsqueda web en vivo
+            para darte las últimas novedades de consolas, PC, móviles y hardware — al instante.
+        </p>
+        <div class="hero-cta">
+            <a href="#live" class="btn-p">🔍 BUSCAR AHORA</a>
+            <a href="#juegos" class="btn-s">VER JUEGOS</a>
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div>
+            <span class="stat-n" data-target="2500" data-suffix="+">0</span>
+            <span class="stat-l">RESEÑAS</span>
+        </div>
+        <div>
+            <span class="stat-n" data-target="180" data-suffix="+">0</span>
+            <span class="stat-l">JUEGOS/MES</span>
+        </div>
+        <div>
+            <span class="stat-n" data-target="120" data-suffix="K">0</span>
+            <span class="stat-l">GAMERS</span>
+        </div>
+    </div>
+</section>
+
+<!-- ════════ LIVE NEWS SECTION ════════ -->
+<section class="section" id="live">
+    <div class="sec-hdr">
+        <div>
+            <div class="sec-label">Anthropic Claude · Web Search · Tiempo Real</div>
+            <h2 class="sec-title">NOTICIAS Y NOVEDADES LIVE</h2>
+        </div>
+    </div>
+
+    <!-- Search Box con IA -->
+    <div class="search-box fade-up">
+        <div class="search-intro">
+            GAMEZONE usa Claude Sonnet 4 + búsqueda web para obtener noticias reales y actuales
+        </div>
+        <div class="search-row">
+            <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="Ej: RTX 5080 precio, PS5 Pro novedades, iPhone 17 gaming…"
+                autocomplete="off"
+            />
+            <button id="search-btn" class="search-btn">⚡ BUSCAR EN LA WEB</button>
+        </div>
+        <div id="category-chips" class="category-chips">
+            <!-- Chips inyectados por JS -->
+        </div>
+    </div>
+
+    <div id="results-status" class="results-status"></div>
+    <div id="results-grid" class="results-grid">
+        <!-- Cards inyectadas por JS -->
+        <div class="empty-state">
+            <span class="empty-icon">🎮</span>
+            <p class="empty-msg">// ELIGE UNA CATEGORÍA O ESCRIBE UNA BÚSQUEDA</p>
+            <p class="empty-msg" style="margin-top:8px;color:var(--neon-cyan);font-size:.65rem;">
+                POWERED BY ANTHROPIC CLAUDE · BÚSQUEDA WEB EN TIEMPO REAL
+            </p>
+        </div>
+    </div>
+
+    <!-- Instrucción API Key -->
+    <div style="margin-top:40px;padding:22px 28px;border:1px solid rgba(255,215,0,.2);background:rgba(255,215,0,.03);">
+        <p style="font-family:'Share Tech Mono',monospace;font-size:.68rem;color:var(--neon-gold);letter-spacing:.08em;line-height:1.8;">
+            ⚙️ CONFIGURACIÓN: Edita <strong>js/config.js</strong> y agrega tu Anthropic API Key para activar las búsquedas en vivo.<br>
+            Obtén tu key gratis en <strong>console.anthropic.com</strong> · Modelo: claude-sonnet-4-20250514 · Web Search incluido
+        </p>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════ JUEGOS DESTACADOS (estáticos) ════════ -->
+<section class="section" id="juegos">
+    <div class="sec-hdr">
+        <div>
+            <div class="sec-label">Selección editorial 2025–2026</div>
+            <h2 class="sec-title">JUEGOS IMPRESCINDIBLES</h2>
+        </div>
+        <a href="#live" class="view-all">Buscar más</a>
+    </div>
+
+    <div class="games-grid">
+
+        <div class="game-card fade-up">
+            <div class="gc-img g1"><div class="gc-glow"></div>🐉</div>
+            <span class="gc-badge rc-badge badge-hot" style="position:absolute;top:14px;left:14px;">HOT</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">RPG ACCIÓN</span><span class="gc-plat">PC · PS5 · XSX</span></div>
+                <h3 class="gc-title">Black Myth: Wukong</h3>
+                <p class="gc-desc">El Rey Mono en una épica mitológica china. Gráficos fotorrealistas y combate soulslike de primer nivel.</p>
+                <div class="gc-foot"><span class="gc-score">9.4 / 10</span><span class="gc-date">AGO 2024</span></div>
+            </div>
+        </div>
+
+        <div class="game-card fade-up">
+            <div class="gc-img g2"><div class="gc-glow"></div>🌌</div>
+            <span class="gc-badge rc-badge badge-new" style="position:absolute;top:14px;left:14px;">NEW</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">RPG MUNDO ABIERTO</span><span class="gc-plat">PC · PS5 · XSX</span></div>
+                <h3 class="gc-title">Elden Ring: Shadow of the Erdtree</h3>
+                <p class="gc-desc">La expansión de FromSoftware que redefinió los DLC. Nuevas tierras oscuras y jefes brutales.</p>
+                <div class="gc-foot"><span class="gc-score">9.7 / 10</span><span class="gc-date">JUN 2024</span></div>
+            </div>
+        </div>
+
+        <div class="game-card fade-up">
+            <div class="gc-img g3"><div class="gc-glow"></div>⚔️</div>
+            <span class="gc-badge rc-badge badge-deal" style="position:absolute;top:14px;left:14px;">DEAL</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">CAZADOR</span><span class="gc-plat">PC · PS5 · XSX</span></div>
+                <h3 class="gc-title">Monster Hunter Wilds</h3>
+                <p class="gc-desc">El mayor salto de la franquicia de Capcom. Ecosistemas dinámicos y la mayor variedad de monstruos.</p>
+                <div class="gc-foot"><span class="gc-score">9.3 / 10</span><span class="gc-date">FEB 2025</span></div>
+            </div>
+        </div>
+
+        <div class="game-card fade-up">
+            <div class="gc-img g4"><div class="gc-glow"></div>🌺</div>
+            <span class="gc-badge rc-badge badge-tech" style="position:absolute;top:14px;left:14px;">PRÓXIMO</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">AVENTURA</span><span class="gc-plat">PS5</span></div>
+                <h3 class="gc-title">Ghost of Yōtei</h3>
+                <p class="gc-desc">Sucker Punch regresa al Japón feudal con nueva protagonista y el volcán Yōtei como escenario en 1603.</p>
+                <div class="gc-foot"><span class="gc-score">TBD</span><span class="gc-date">2025</span></div>
+            </div>
+        </div>
+
+        <div class="game-card fade-up">
+            <div class="gc-img g5"><div class="gc-glow"></div>🎸</div>
+            <span class="gc-badge rc-badge badge-hot" style="position:absolute;top:14px;left:14px;">HYPE</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">MUNDO ABIERTO</span><span class="gc-plat">PC · PS5 · XSX</span></div>
+                <h3 class="gc-title">Grand Theft Auto VI</h3>
+                <p class="gc-desc">Rockstar vuelve a Vice City con protagonista femenina y un mundo dinámico sin precedentes.</p>
+                <div class="gc-foot"><span class="gc-score">TBD</span><span class="gc-date">Q4 2025</span></div>
+            </div>
+        </div>
+
+        <div class="game-card fade-up">
+            <div class="gc-img g6"><div class="gc-glow"></div>🌊</div>
+            <span class="gc-badge rc-badge badge-new" style="position:absolute;top:14px;left:14px;">NEW</span>
+            <div class="gc-body">
+                <div class="gc-meta"><span class="gc-genre">AVENTURA</span><span class="gc-plat">PC · PS5</span></div>
+                <h3 class="gc-title">Death Stranding 2: On the Beach</h3>
+                <p class="gc-desc">Hideo Kojima lleva a Sam Porter Bridges a nuevos territorios post-apocalípticos y perturbadores.</p>
+                <div class="gc-foot"><span class="gc-score">9.1 / 10</span><span class="gc-date">JUN 2025</span></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════ LANZAMIENTOS ════════ -->
+<section class="section" id="lanzamientos">
+    <div class="sec-hdr">
+        <div>
+            <div class="sec-label">Calendario 2025–2026</div>
+            <h2 class="sec-title">PRÓXIMOS LANZAMIENTOS</h2>
+        </div>
+        <a href="#live" class="view-all">Ver en vivo</a>
+    </div>
+
+    <div class="results-grid">
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">consola</div>
+            <div class="rc-cat"><span class="rc-badge badge-new">NEW</span>&nbsp;Hardware</div>
+            <h3 class="rc-title">Nintendo Switch 2</h3>
+            <p class="rc-body">La esperada sucesora de Switch llega con pantalla 1080p, joysticks mejorados, soporte 4K en TV y compatibilidad retroactiva. Precio desde $449 USD.</p>
+            <div class="rc-footer"><span class="rc-price">$449 USD</span><span class="rc-date">JUN 2025</span></div>
+        </div>
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">hardware</div>
+            <div class="rc-cat"><span class="rc-badge badge-tech">TECH</span>&nbsp;GPU</div>
+            <h3 class="rc-title">NVIDIA GeForce RTX 5090</h3>
+            <p class="rc-body">La GPU más potente de NVIDIA con arquitectura Blackwell. 32GB GDDR7, rendimiento 2x vs RTX 4090 en benchmarks 4K con DLSS 4.</p>
+            <div class="rc-footer"><span class="rc-price">$1,999 USD</span><span class="rc-date">ENE 2025</span></div>
+        </div>
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">móvil</div>
+            <div class="rc-cat"><span class="rc-badge badge-hot">HOT</span>&nbsp;Smartphone</div>
+            <h3 class="rc-title">Samsung Galaxy S25 Ultra</h3>
+            <p class="rc-body">El flagship de Samsung con Snapdragon 8 Elite, 12GB RAM y cámara de 200MP. El mejor smartphone Android para gaming móvil del 2025.</p>
+            <div class="rc-footer"><span class="rc-price">$1,299 USD</span><span class="rc-date">ENE 2025</span></div>
+        </div>
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">pc</div>
+            <div class="rc-cat"><span class="rc-badge badge-deal">DEAL</span>&nbsp;CPU</div>
+            <h3 class="rc-title">AMD Ryzen 9 9950X</h3>
+            <p class="rc-body">El procesador tope de gama de AMD Zen 5. 16 núcleos, 32 hilos, hasta 5.7 GHz. Domina tanto en productividad como en gaming competitivo.</p>
+            <div class="rc-footer"><span class="rc-price">$649 USD</span><span class="rc-date">AGO 2024</span></div>
+        </div>
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">consola</div>
+            <div class="rc-cat"><span class="rc-badge badge-new">NEW</span>&nbsp;Accesorio</div>
+            <h3 class="rc-title">PlayStation 5 Pro</h3>
+            <p class="rc-body">La versión mejorada de PS5 con GPU 45% más potente, soporte 8K nativo y PlayStation Spectral Super Resolution (PSSR) como alternativa al DLSS.</p>
+            <div class="rc-footer"><span class="rc-price">$699 USD</span><span class="rc-date">NOV 2024</span></div>
+        </div>
+
+        <div class="result-card fade-up">
+            <div class="rc-tag">móvil</div>
+            <div class="rc-cat"><span class="rc-badge badge-tech">TECH</span>&nbsp;Smartphone</div>
+            <h3 class="rc-title">iPhone 17 Pro Max</h3>
+            <p class="rc-body">Chip A19 Pro con GPU de 8 núcleos, pantalla ProMotion 2" más fina, cámara periscópica mejorada y soporte Apple Intelligence para gaming y AR.</p>
+            <div class="rc-footer"><span class="rc-price">~$1,199 USD</span><span class="rc-date">SEP 2025</span></div>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════ SOBRE / ARQUITECTURA ════════ -->
+<section class="section" id="sobre">
+    <div class="sec-hdr">
+        <div>
+            <div class="sec-label">Stack tecnológico</div>
+            <h2 class="sec-title">ARQUITECTURA DEL PORTAL</h2>
+        </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;">
+
+        <div class="result-card fade-up" style="border-color:rgba(0,245,255,.2);">
+            <div class="rc-tag">frontend</div>
+            <h3 class="rc-title" style="font-size:.9rem;">HTML5 · CSS3 · JavaScript ES2023</h3>
+            <p class="rc-body" style="font-size:.8rem;">Página estática pura. Sin frameworks pesados. Carga ultrarrápida. 100% compatible con Tomcat como servidor de archivos estáticos.</p>
+        </div>
+
+        <div class="result-card fade-up" style="border-color:rgba(255,0,128,.2);">
+            <div class="rc-tag">servidor</div>
+            <h3 class="rc-title" style="font-size:.9rem;">Apache Tomcat 11 · Jakarta EE 10</h3>
+            <p class="rc-body" style="font-size:.8rem;">Desplegado como aplicación web estándar (.war). web.xml configurado con Jakarta EE 10 / Servlet 6.0. Listo para agregar Servlets Java.</p>
+        </div>
+
+        <div class="result-card fade-up" style="border-color:rgba(57,255,20,.2);">
+            <div class="rc-tag">ia cloud</div>
+            <h3 class="rc-title" style="font-size:.9rem;">Anthropic Claude Sonnet 4</h3>
+            <p class="rc-body" style="font-size:.8rem;">Modelo claude-sonnet-4-20250514. Web search tool habilitado. Respuestas estructuradas en JSON. Búsquedas en tiempo real desde el navegador.</p>
+        </div>
+
+        <div class="result-card fade-up" style="border-color:rgba(255,107,0,.2);">
+            <div class="rc-tag">despliegue</div>
+            <h3 class="rc-title" style="font-size:.9rem;">Deploy: GameZone.war → /webapps/</h3>
+            <p class="rc-body" style="font-size:.8rem;">Copia el .war en TOMCAT_HOME/webapps/. Accede en http://localhost:8080/GameZone. Tomcat lo despliega automáticamente.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ════════ FOOTER ════════ -->
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="#" class="nav-logo" style="display:block;margin-bottom:18px;font-size:1.5rem;">
+                <span class="logo-br">[</span>GZ<span class="logo-br">]</span> GAMEZONE
+            </a>
+            <p class="footer-tag">
+                // PORTAL GAMING CON IA EN TIEMPO REAL<br>
+                // CONSOLAS · PC · MÓVILES · HARDWARE<br>
+                // ANTHROPIC CLAUDE SONNET 4 · WEB SEARCH<br>
+                // APACHE TOMCAT 11 · JAKARTA EE 10<br>
+                // © 2026 GAMEZONE
+            </p>
+        </div>
+        <div class="footer-col">
+            <h4>Categorías</h4>
+            <ul>
+                <li><a href="#live">Noticias Live IA</a></li>
+                <li><a href="#juegos">Juegos Destacados</a></li>
+                <li><a href="#lanzamientos">Lanzamientos</a></li>
+                <li><a href="#sobre">Arquitectura</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Plataformas</h4>
+            <ul>
+                <li><a href="#live">PlayStation 5 / Pro</a></li>
+                <li><a href="#live">Xbox Series X</a></li>
+                <li><a href="#live">Nintendo Switch 2</a></li>
+                <li><a href="#live">PC / Steam</a></li>
+                <li><a href="#live">Smartphones</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Tecnología</h4>
+            <ul>
+                <li><a href="https://console.anthropic.com" target="_blank">Anthropic Console</a></li>
+                <li><a href="https://docs.anthropic.com" target="_blank">API Docs</a></li>
+                <li><a href="https://tomcat.apache.org" target="_blank">Apache Tomcat 11</a></li>
+                <li><a href="js/config.js">Configurar API Key</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span class="footer-copy">© 2026 GAMEZONE // TOMCAT 11 // CLAUDE SONNET 4 // WEB SEARCH</span>
+        <div class="footer-sig"><div class="sig-dot"></div>SISTEMAS OPERATIVOS</div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
